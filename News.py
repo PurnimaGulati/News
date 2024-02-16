@@ -10,7 +10,6 @@ news = json.loads(r.text)
 # print(news, type(news))
 for article in news["articles"]:
     print(article["title"])
-    print(article["description"])
     print("--------------------------------------")
 
 
